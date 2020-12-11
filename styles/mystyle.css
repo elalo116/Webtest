@@ -1,0 +1,68 @@
+#mycoolheading {
+    font-size; 40px;
+    color: red;
+   
+}
+
+.mycoolparagraph {
+    color: green;
+}
+
+.mycoolparagraph3 {
+    color: yellow;
+    background-color: darkgreen;
+}
+
+.mycoolparagraph2{
+    color: blue;
+    background-color: white;
+        
+}
+blockquote {
+    background-color: #EDEA02;
+}
+
+h1{
+    background-color: rgb(110,250,22);
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+    text-align: center;
+}
+
+p {
+    font-family: impact, verdana, sans-serif;
+    text-transform: uppercase;
+    font-style: oblique
+}
+
+ol {
+    color: red;
+    text-transform: uppercase;
+     font-family: impact, verdana, sans-serif;
+    font-style: italic;
+    background-color: rgb(110,250,22);
+}
+
+
+ nav.top_nav ul {
+                 list-style: none;
+             }
+             nav.top_nav ul li {
+                 float: left;
+                 margin-right: .05em;
+             }
+             nav.top_nav ul li a {
+                 padding: 0.25em 1em;
+                 text-decoration: none; /* no underline */
+                 background-color: aqua;
+                 color: darkblue;
+                 border: 2px solid black;
+                 border-radius: 1em 1em 0px 0px; /* round corners */
+             }
+             nav.top_nav ul li a:hover, nav ul li a:focus {
+                 color: black;
+                 box-sizing: larger;
+                 background-color: white;
+                 font-weight: bold;
+             }
